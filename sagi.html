@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京都産業大学</title>
+
+</head>
+
+<body>
+    <div class="box">
+        <h1>京都産業大学の魅力</h1>
+    </div>
+    <p class="text">このサイトでは京都産業大学の魅力について記載しています。</p>
+    <input type="text" placeholder="クレジットカード番号">
+    <button id="submit-button">送信</button>
+    <h2>京都産業大学の強み</h2>
+    <p class="text">
+        京都産業大学は、その優れた教育と独自のキャンパス環境において、学生たちに数々の強みを提供しています。まず、京都に位置し、日本の文化と伝統に触れながら最新の知識と技術を学ぶ環境が整っています。これは、学際的な学びや創造的な考えを養う上で非常に価値があります。
+
+        さらに、京都産業大学は産業界との強力な連携を築いており、学生たちは実務経験を豊富に積む機会に恵まれています。多くの学部で提供されるインターンシップや産業プロジェクトを通じて、理論と実務を結びつけるスキルを磨くことができます。
+
+        さらに、京都産業大学は国際的な視野を大切にし、異文化への理解を深めるプログラムや留学サポートを提供しています。国際的な交流を通じて、多様性と共感力を育む機会が広がっています。
+    </p>
+
+    <a href="https://www.kyoto-su.ac.jp/about/index.html">大学の紹介についてはこちらをご確認ください。</a>
+    <p class="text">ご連絡は下記のURLからご連絡ください。</p>
+    <a href="https://www.kyoto-su.ac.jp/faq.html">お問い合わせはこちら</a>
+
+    <button class="button-size" id="third-button">本部に連絡する</button>
+
+</body>
+
+<style>
+    .box {
+        border: 5px solid orange;
+        padding: 32px;
+        width: 300px;
+        /*memo*/
+        border-radius: 32px;
+        /*四角の滑らかさ*/
+    }
+
+    h1 {
+        color: blue;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    h2 {
+        color: red;
+        font-size: 16pt;
+    }
+
+    .button-size {
+        font-size: 10px;
+        /*テキストの場所*/
+        /*text-align:right;*/
+
+    }
+</style>
+
+<script>
+    const submitbutton = document.querySelector("#submit-button");
+
+    submitbutton.addEventListener("click", () => {
+        alert("Virus detected: Your device is at risk. Remove the virus now.\nウイルスが検出されました：お使いのデバイスは危険にさらされています。ウイルスを今すぐ削除してください。\n\n左下の本部に連絡し至急対応してください。");
+    });
+
+    const thirdbutton = document.querySelector("#third-button");
+
+    thirdbutton.addEventListener("click", () => {
+        alert("I am being hacked. Please transfer 10,000,000,000 yen.\n\nハッキングされています。10000000000円振り込んでください");
+    });
+</script>
+
+
+</html>
