@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>京都産業</title>
+    <title>京都産業大学</title>
 
 </head>
 
 <body>
     <div class="box">
-        <h1>京都産業大学について</h1>
+        <h1>京都産業大学</h1>
     </div>
     <p class="text">このサイトでは京都産業大学の魅力について記載しています。</p>
     <input type="text" placeholder="クレジットカード番号">
@@ -29,6 +29,15 @@
     <a href="https://www.kyoto-su.ac.jp/faq.html">お問い合わせはこちら</a>
 
     <button class="button-size" id="third-button">本部に連絡する</button>
+    <div class = "tamura-koment">
+        
+        <img class="tamura-face" src="./tamura.jpg" />
+        <div>
+        <h3>コメント</h3>
+        <P>京都産業大学大好き！！</P>
+    </div>
+    </div>
+
 
 </body>
 
@@ -61,7 +70,21 @@
         /*text-align:right;*/
 
     }
-</style>
+    .tamura-face {
+            width: 200px;
+            border-radius: 8px;
+        }
+    
+    .tamura-koment {
+        border: 5px solid;
+        width: 500px;
+        border-radius: 32px;
+        padding: 32px;
+        display: flex;/*横に移動*/
+        gap:50px;/*距離*/
+        /*align-items: center;*/
+    }
+</style>sq
 
 <script>
     const submitbutton = document.querySelector("#submit-button");
@@ -78,4 +101,4 @@
 </script>
 
 
-</html>
+</html>     
